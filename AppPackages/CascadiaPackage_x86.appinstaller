@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller Uri="https://github.com/halorocker89/terminal/AppPackages/CascadiaPackage_x86.appinstaller" Version="0.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+  <MainPackage Name="WindowsTerminalDev" Version="0.0.1.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Uri="https://github.com/halorocker89/terminal/AppPackages/CascadiaPackage_0.0.1.0_x86_Debug_Test/CascadiaPackage_0.0.1.0_x86_Debug.msix" ProcessorArchitecture="x86" />
+  <Dependencies>
+    <Package Name="Microsoft.VCLibs.140.00.Debug.UWPDesktop" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.27508.1" ProcessorArchitecture="x86" Uri="https://github.com/halorocker89/terminal/AppPackages/CascadiaPackage_0.0.1.0_x86_Debug_Test/Dependencies/x86/Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx" />
+    <Package Name="Microsoft.VCLibs.140.00.Debug" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.27508.1" ProcessorArchitecture="x86" Uri="https://github.com/halorocker89/terminal/AppPackages/CascadiaPackage_0.0.1.0_x86_Debug_Test/Dependencies/x86/Microsoft.VCLibs.x86.Debug.14.00.appx" />
+  </Dependencies>
+  <UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="0" />
+  </UpdateSettings>
+</AppInstaller>
